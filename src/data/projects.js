@@ -9,7 +9,7 @@ const data = [
     desc:
       'Game Engine written from scratch. '
       + 'Supports multiple platforms, such as Xbox Series, Android, WebAssembly, PS Vita, MacOS, iOS, Windows and Linux. '
-      + 'Uses technology such as OpenGL, DirectX and Metal. Has an easy build system. DConf 2023\' https://www.youtube.com/watch?v=jgygD7B_CPk ',
+      + 'Uses technology such as OpenGL, DirectX and Metal. Has an easy build system. [DConf 23\'](https://www.youtube.com/watch?v=jgygD7B_CPk) ',
   },
   {
     title: 'Redub',
@@ -20,7 +20,7 @@ const data = [
     desc:
       'Alternative implementation of dub. Speed and consistency oriented. '
       + ' Reduced rebuild times from Hipreme Engine from 10 seconds to 1 second. Made '
-      + 'developing faster, easier and cheaper. <a href=https://www.youtube.com/watch?v=o57nN3SITZU> DConf 2024\'</a> ',
+      + 'developing faster, easier and cheaper. [DConf \'24](https://www.youtube.com/watch?v=o57nN3SITZU)',
   },
   {
     title: '3D Software Renderer in C',

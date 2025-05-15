@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import Markdown from 'react-markdown';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -17,7 +18,7 @@ const Cell = ({ data }) => (
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        <p><Markdown>{data.desc}</Markdown></p>
       </div>
     </article>
   </div>

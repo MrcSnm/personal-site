@@ -16,7 +16,6 @@ const data = [
   //   icon: faFacebookF,
   // },
   // {
-  //   link: 'https://www.instagram.com/dangelosaurus/',
   //   label: 'Instagram',
   //   icon: faInstagram,
   // },
@@ -26,7 +25,6 @@ const data = [
     icon: faLinkedinIn,
   },
   // {
-  //   link: 'https://twitter.com/dangelosaurus',
   //   label: 'Twitter',
   //   icon: faTwitter,
   // },
