@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Estácio',
+    degree: 'Post Graduate Degree, Games and Interactive Media Design',
+    link: 'https://estacio.br/',
+    year: 2022,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Fatec São Caetano do Sul - Antônio Russo',
+    degree: 'Associate\'s Degree - Digital Games Technology',
+    link: 'https://fatecsaocaetano.cps.sp.gov.br/',
+    year: 2020,
   },
 ];
 

@@ -1,47 +1,37 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Hipreme Engine',
+    subtitle: 'Game Engine which provides core functionality in D language',
+    link: 'https://github.com/MrcSnm/HipremeEngine',
+    image: '/images/projects/engine_logo_badge.png',
+    date: '2019-08-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Game Engine written from scratch. '
+      + 'Supports multiple platforms, such as Xbox Series, Android, WebAssembly, PS Vita, MacOS, iOS, Windows and Linux. '
+      + 'Uses technology such as OpenGL, DirectX and Metal. Has an easy build system. DConf 2023\' https://www.youtube.com/watch?v=jgygD7B_CPk ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Redub',
+    subtitle: 'A build tool and package manager written in D with parallel programming',
+    link: 'https://github.com/MrcSnm/redub',
+    image: '/images/projects/redub_logo.png',
+    date: '2024-02-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Alternative implementation of dub. Speed and consistency oriented. '
+      + ' Reduced rebuild times from Hipreme Engine from 10 seconds to 1 second. Made '
+      + 'developing faster, easier and cheaper. <a href=https://www.youtube.com/watch?v=o57nN3SITZU> DConf 2024\'</a> ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: '3D Software Renderer in C',
+    subtitle: 'A 3D Software Renderer written in C + SDL 2',
+    link: 'https://github.com/MrcSnm/3drenderer',
+    image: '/images/projects/3d_renderer.jpg',
+    date: '2021-01-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Done a study in C and SDL 2 for understanding how 3D Rendering works. '
+      + ' supports lines, triangles and mesh rendering, decode .obj file, apply backface culling '
+      + ' texture coordinates and z buffer ordering. ',
   },
 ];
 
